@@ -13,3 +13,25 @@ For two computers to communicate with each other, they need to have both an IP a
 To ensure a connection was established between the two computers, I pinged the server from the client computer using the ping command. Then, I accessed the web server from the client's computer web browser.
 
 When I turned off the HTTPS service on my server, I found that I could no longer access the web page from my client's computer. This happened because the server was no longer listening on port 443.
+
+## Requirement
+
+- Download and install Cisco packet tracer. Learn how to install [Here](https://www.packettracernetwork.com/download/download-packet-tracer.html#:~:text=Log%20in%20to%20Cisco%20Netacad,to%20discover%20the%20software%20features.). 
+
+## How to Use the Repo
+
+1) Fork and clone this repo on your local computer
+
+2) Log in to your Cisco packet tracer app
+
+3) Open `Basic_Computer_Networking_Lab.pkt` in packet tracer
+
+4) In packet tracer, click `Laptop0` and switch to the `Desktop` tab
+
+5) Click command prompt
+
+6) Finally, test the connection between `Laptop0` and `Server0` by pinging the server IP address
+```
+ping 50.0.0.2
+
+```
